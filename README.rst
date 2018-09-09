@@ -53,7 +53,13 @@ Useful component to perform a network request and parse the response using super
 
 **10. Add React Router**
 
+(a) Install package (no need to install react-router which includes react-router-native components):
+
     $ yarn add react-router-dom
+
+(b) Update index router - wrap app in <BrowserRouter> from 'react-router-dom'
+(c) Update App.js to use Main.js [and Header.js]
+(d) Add [pages] routes to Main.js
 
 Test
 ----
