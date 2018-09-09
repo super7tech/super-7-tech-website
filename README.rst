@@ -43,6 +43,14 @@ Useful component to perform a network request and parse the response using super
 
     $ yarn add react-http-request
 
+**9. Create entities and value objects in lib directory**
+
+    $ mkdir lib
+    $ cd lib
+    $ mkdir user && cd user && yarn init [react-spa-example-user] && yarn link
+    $ cd ../../
+    $ yarn link "react-spa-example-user"
+
 Test
 ----
 
