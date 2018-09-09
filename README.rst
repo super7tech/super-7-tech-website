@@ -28,6 +28,13 @@ cp -R src scaffold
 
     Code > Preferences > Settings > "Indent" Tab Size
 
+**7. Create Components Directory & Imports**
+
+- common
+- forms
+- layout
+- pages
+
 Test
 ----
 
