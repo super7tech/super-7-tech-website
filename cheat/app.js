@@ -45,14 +45,13 @@ console.log('Find:');
 const foundItem = data.find(value => value > 3); // returns the value of the first element in the array that satisfies the provided testing function
 console.log(foundItem);
 
-// indexOf
+// IndexOf
 console.log('indexOf:');
 const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 const indexOf = beasts.indexOf('camel');
 console.log(indexOf);
 
-
-// sort
+// Sort
 console.log('Sort:');
 const items = [
   { name: 'Edward', value: 21 },
@@ -70,3 +69,12 @@ const sortedItems = items.sort(function (a, b) {
 });
 console.log(sortedItems);
 
+
+// Splice - changes the contents of an array by removing existing elements and/or adding new elements.
+console.log('Splice:');
+let months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb'); // inserts at 1st index position
+console.log(months); // expected output: Array ['Jan', 'Feb', 'March', 'April', 'June']
+
+months.splice(4, 1, 'May'); // replaces 1 element at 4th index
+console.log(months); // expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
