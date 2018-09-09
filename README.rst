@@ -16,9 +16,24 @@ Download for Mac: https://nodejs.org/en/download/
 
     $ git init; git remote add origin ...
 
-**4. Remove Unnecessary Files**
+**4. Copy Src to Scaffold**
+
+cp -R src scaffold
+
+**5. Remove Unnecessary Files**
 
     $ rm -f README.md
+
+**6. Set Text Editor Tab Size to 2**
+
+    Code > Preferences > Settings > "Indent" Tab Size
+
+Test
+----
+
+**1. Usage**
+
+    $ yarn start
 
 Test
 ----
