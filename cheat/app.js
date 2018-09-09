@@ -78,3 +78,13 @@ console.log(months); // expected output: Array ['Jan', 'Feb', 'March', 'April', 
 
 months.splice(4, 1, 'May'); // replaces 1 element at 4th index
 console.log(months); // expected output: Array ['Jan', 'Feb', 'March', 'April', 'May']
+
+// toString - method returns a string representing the specified array and its elements.
+console.log('toString:');
+console.log(data.toString());
+
+
+// Join
+console.log('Join:');
+var elements = ['Fire', 'Wind', 'Rain'];
+console.log(elements.join(' - '));
