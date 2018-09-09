@@ -35,6 +35,14 @@ cp -R src scaffold
 - layout
 - pages
 
+**8. Add React-HTTP-Request npm module**
+
+Link: https://www.npmjs.com/package/react-http-request
+
+Useful component to perform a network request and parse the response using superagent module.
+
+    $ yarn add react-http-request
+
 Test
 ----
 
