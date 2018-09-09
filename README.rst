@@ -51,6 +51,10 @@ Useful component to perform a network request and parse the response using super
     $ cd ../../
     $ yarn link "react-spa-example-user"
 
+**10. Add React Router**
+
+    $ yarn add react-router-dom
+
 Test
 ----
 

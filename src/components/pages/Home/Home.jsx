@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { Header } from '../../../components/layout';
 import User from 'react-spa-example-user';
 import Request from 'react-http-request';
 
 class Home extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
+      <div className="home">
         <Request
           url='https://api.github.com/users/ericmdev'
           method='get'
