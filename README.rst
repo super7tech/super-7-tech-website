@@ -12,3 +12,4 @@ Usage
 
     $ yarn test [a(all)|w(watch)]
 
+https://github.com/gitname/react-gh-pages
