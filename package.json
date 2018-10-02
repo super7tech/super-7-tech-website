@@ -2,6 +2,7 @@
   "name": "react-spa-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://super7technologies.github.io/super-7-technologies",
   "dependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
