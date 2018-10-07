@@ -1,0 +1,70 @@
+.Home {
+  background: transparent;
+  /* height: 28em; */
+  overflow: hidden;
+}
+.Home-hero {
+  /* background: green; */
+  width: 100%;
+  height: 250px;
+  /* height: 28em; */
+  /* height: 200px; */
+  /* position: relative; */
+  background-size:cover;
+}
+/* .Home-hero img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} */
+.Home-hero-content {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* min-height: 200px;
+  overflow: hidden; */
+  text-align: left;
+  font-size: 1.2em;
+  /* color: #FFF; */
+  z-index: 2;
+  color: #FFF;
+}
+.Home-hero-title {
+  padding: 3em 0 0 2em;
+}
+.Home-hero-title h1 {
+  font-size: 1em;
+  letter-spacing: 0.02em;
+}
+.Home-hero-copy {
+  padding: 0.8em 0 0 2em;
+  letter-spacing: 0.01em;
+}
+.Home-hero-copy p {
+  font-size: 0.6em;
+}
+.Article {
+  clear: both;
+  padding: 0 20px;
+  text-align: left;
+}
+.Article-title {
+  padding: 20px 0;
+  font-weight: bold;
+}
+.Article-title .Name{
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.Article-title .Website{
+  font-weight: normal;
+  font-size: 0.8em;
+}
+.Article-copy {
+  padding: 20px 0;
+  font-size: 0.6em;
+}

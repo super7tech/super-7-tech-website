@@ -11,13 +11,13 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="Home-hero" style={heroStyle}>
+          {/* <img src={hero} alt="Hero" /> */}
           <div className="Home-hero-content">
             <div className="Home-hero-title">
               <h1>Software Development <br/>&amp; Consultancy</h1>
             </div>
             <div className="Home-hero-copy">
-              <p><strong>Experts in Web Technologies</strong></p>
-              <p>We ❤️ JavaScript, PHP, Docker, AWS.</p>
+              <p>Specialists in JavaScript, PHP, Docker, AWS.</p>
             </div>
           </div>
         </div>

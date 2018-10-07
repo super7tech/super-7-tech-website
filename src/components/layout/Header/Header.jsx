@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './resources/logo.svg';
 import { Link } from 'react-router-dom';
-import './style.css';
+import './resources/style.css';
 
 class Header extends Component {
   render() {
     return (
       <header className="Header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h1 className="Header-title">Coming Soon</h1>
-        {/* <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link> */}
+        <div className="Header-logo">
+          <img src={logo} alt="Super 7 Technologies" />
+        </div>
+        <div className="Header-breadcrumb-nav">
+          <div className="Header-breadcrumb-nav-item">
+            Home
+          </div>
+        </div>
       </header>
     );
   }
